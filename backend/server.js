@@ -6,7 +6,8 @@ dotenv.config();
 
 import connectDB from "./config/db.js";
 // import products from "./data/products.js";
-const port = process.env.PORT || 5000;
+// const port = process.env.PORT || 5000;
+const port = 8700;
 
 // Importing Routes
 import productRoutes from "./routes/productRoutes.js";
@@ -59,4 +60,6 @@ if (process.env.NODE_ENV === "production") {
 app.use(notFound);
 app.use(errorHandler);
 
-app.listen(port, () => console.log(`Server is running on port ${port}`));
+app.listen(5000, () => {
+  console.log(`Server is running on port ${port}`);
+});

@@ -1,6 +1,9 @@
 # MVKStore eCommerce Platform
 
 > eCommerce platform built with the MERN stack & Redux.
+> ![Capture](https://github.com/MohammadVazeerAliKhan/MVKStore/assets/119596941/c597e650-7586-4b3d-9926-f0b3a574c864)
+![Capture2](https://github.com/MohammadVazeerAliKhan/MVKStore/assets/119596941/9e19dced-78b1-4792-9305-0b9b3f35f333)
+
 
 It is a full-featured shopping cart with PayPal & credit/debit payments.
 

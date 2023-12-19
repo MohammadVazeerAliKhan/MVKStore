@@ -2,7 +2,6 @@
 
 > eCommerce platform built with the MERN stack & Redux.
 
-<img src="./frontend/public/images/screens.png">
 It is a full-featured shopping cart with PayPal & credit/debit payments.
 
 ## Features
@@ -65,8 +64,4 @@ npm run server
 cd frontend
 npm run build
 ```
-#### Setting up the proxy
-
-Using CRA we have a `"proxy"` setting in our frontend/package.json to avoid
-breaking the browser [Same Origin Policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy) in development.
 
